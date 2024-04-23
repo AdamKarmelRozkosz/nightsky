@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="moon.css">
+    <title>Moon</title>
+</head>
+<body>
+    <header><h1>The night sky</h1></header>
+    <nav>
+        <div class="home" id="home">Home</div>
+        <div class="moon" id="moon">Moon</div>
+        <div class="planets" id="planets">Planets</div>
+        <div class="stars" id="stars">Stars</div>
+        <div class="nebulae" id="nebulae">Nebulae</div>
+        <div class="galaxies" id="galaxies">Galaxies</div>
+        <script>
+            var home = document.getElementById("home")
+            var moon = document.getElementById("moon")
+            var stars = document.getElementById("stars")
+            var nebuale = document.getElementById("nebulae")
+            var galaxies = document.getElementById("galaxies")
+            var planets = document.getElementById("planets")
+            
+            home.addEventListener("click",function(){
+                window.open("index.html", "_self")
+            })
+            moon.addEventListener("click",function(){
+                window.open("moon.html", "_self")
+            })
+            stars.addEventListener("click",function(){
+                window.open("stars.html", "_self")
+            })
+            nebulae.addEventListener("click",function(){
+                window.open("nebulae.html", "_self")
+            })
+            galaxies.addEventListener("click",function(){
+                window.open("galaxies.html", "_self")
+            })
+            planets.addEventListener("click",function(){
+                window.open("planets.html","_self")
+            })
+        </script>
+    </nav>
+    <main>
+        <div class="content">
+        <img src="moon.jpg" alt="moon" class="moonpic" width="">
+        <h2>The bright thing on our night sky</h2>
+        <p>The moon, Earth's only natural satellite, has been a constant presence in the night sky, faithfully orbiting our planet for billions of years. Its mesmerizing phases, from the waxing crescent to the full moon and back again, mark the passage of time and the rhythm of the lunar cycle. With its gentle silver glow, the moon casts a spell over the landscape, bathing the Earth in its ethereal light.</p>
+        <p>Scientific exploration has unveiled many mysteries surrounding the moon's origins and composition. It is believed to have formed around 4.5 billion years ago from the debris of a collision between Earth and a Mars-sized protoplanet. The moon's surface is scarred by craters, mountains, and vast lunar seas called "maria," remnants of ancient volcanic activity. Despite its barren appearance, the moon continues to hol
+        <p>Throughout history, the moon has been a central figure in countless myths, legends, and folklore from cultures around the world. From the ancient Greeks and Romans to indigenous peoples and modern societies, the moon has been revered as a symbol of divinity, fertility, and mystery. Stories of lunar deities, werewolves, and celestial beings have woven a rich tapestry of cultural significance around our lunar companion, shaping our beliefs and rituals for generations.</p>d valuable scientific insights into the history and evolution of our solar system.</p>
+        <p>The moon has also served as a stepping stone for humanity's exploration of space. In 1969, the Apollo 11 mission achieved the historic feat of landing humans on the lunar surface, marking a monumental achievement in human history. Since then, the moon has remained a focal point for scientific research and exploration, with numerous missions and initiatives aimed at unlocking its secrets and paving the way for future lunar exploration and colonization.</p>
+        <p>Beyond its scientific and cultural significance, the moon continues to inspire artists, poets, and dreamers alike. Its serene beauty and timeless presence have been immortalized in literature, art, and music, serving as a muse for creativity and expression. From moonlit sonatas to lunar landscapes, the moon's mystique has left an indelible mark on human imagination and creativity.</p>
+            <div class="phase">
+                <img src="phases.jpg" alt="moon phases" class="moonphase">
+                <h2>Lunar phases</h2>
+                <p>The moon's cycle begins with the new moon, when it is invisible to the naked eye, hidden in the shadow of the Earth. As the days progress, a slender crescent emerges in the sky, marking the waxing phase. The crescent grows larger each night until it reaches its full illumination, known as the full moon. Afterward, the moon begins to wane, gradually diminishing in size until it returns to its invisible new moon phase, completing the cycle.</p>
+                <p>During the waxing phase, the illuminated portion of the moon increases, moving from the new moon to the full moon. Conversely, during the waning phase, the illuminated portion decreases, moving from the full moon back to the new moon. These transitions between light and shadow create the mesmerizing spectacle of the moon's changing phases, captivating observers throughout history.</p>
+                <p>Moon phases hold cultural significance across diverse societies and traditions. From ancient calendars to religious observances, lunar cycles have guided human activities and rituals for millennia. The full moon, in particular, has been associated with celebrations, festivals, and spiritual practices in cultures around the world, symbolizing illumination, completion, and renewal.</p>
+                
+            </div>
+        </div>
+        <br>
+        <br>
+    </main>
+    <footer><H2>Clear skies!</H2></footer>
+</body>
+</html>

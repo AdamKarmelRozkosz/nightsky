@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="planets.css">
+    <title>Planets</title>
+</head>
+<body>
+    <header><h1>The night sky</h1></header>
+    <nav>
+        <div class="home" id="home">Home</div>
+        <div class="moon" id="moon">Moon</div>
+        <div class="planets" id="planets">Planets</div>
+        <div class="stars" id="stars">Stars</div>
+        <div class="nebulae" id="nebulae">Nebulae</div>
+        <div class="galaxies" id="galaxies">Galaxies</div>
+        <script>
+            var home = document.getElementById("home")
+            var moon = document.getElementById("moon")
+            var stars = document.getElementById("stars")
+            var nebuale = document.getElementById("nebulae")
+            var galaxies = document.getElementById("galaxies")
+            var planets = document.getElementById("planets")
+            
+            home.addEventListener("click",function(){
+                window.open("index.html", "_self")
+            })
+            moon.addEventListener("click",function(){
+                window.open("moon.html", "_self")
+            })
+            stars.addEventListener("click",function(){
+                window.open("stars.html", "_self")
+            })
+            nebulae.addEventListener("click",function(){
+                window.open("nebulae.html", "_self")
+            })
+            galaxies.addEventListener("click",function(){
+                window.open("galaxies.html", "_self")
+            })
+            planets.addEventListener("click",function(){
+                window.open("planets.html","_self")
+            })
+            
+
+        </script>
+    </nav>
+    <main>
+        <div class="content">
+        <img src="solar.jpg" alt=" solar system" class="solarsystem">
+        <h2>Celestial bodies in our system</h2>
+        <h3>Mercury: The Swift Messenger</h3>
+        Closest to the sun, Mercury is a rocky world with extreme temperature variations, ranging from scorching hot to frigid cold. Its barren surface is scarred by impact craters and volcanic plains, offering a glimpse into the tumultuous history of our solar system's formation.
+        <h3>Venus: The Shrouded Sister</h3>
+        <p>Wrapped in thick clouds of sulfuric acid, Venus is a planet of extreme atmospheric pressure and runaway greenhouse effect. Its surface, hidden beneath a veil of clouds, is a desolate landscape of volcanic plains and towering mountains, reminiscent of a dystopian world.</p>
+        <h3>Earth: Our Pale Blue Dot</h3>
+        <p>The third planet from the sun, Earth is a vibrant oasis of life in the vastness of space. Its diverse landscapes, from lush forests to barren deserts, teem with biodiversity and support a thriving ecosystem of flora and fauna. Earth's unique combination of atmosphere, water, and geological activity make it a haven for life as we know it.</p>
+        <h3>Mars: The Red Planet</h3>
+        <p>Mars, often called the "Red Planet," is a cold and desert-like world with a thin atmosphere. Its surface bears evidence of ancient riverbeds, dried-up lakes, and polar ice caps, hinting at a watery past and raising tantalizing questions about the possibility of past or present life on Mars.</p>
+        <img src="staturn.jpg" alt="saturn" class="saturn">
+        <h3>Jupiter: The Giant King</h3>
+        <p>The largest planet in our solar system, Jupiter is a gas giant with swirling bands of clouds and a tumultuous atmosphere. Its iconic Great Red Spot, a massive storm system larger than Earth, has fascinated astronomers for centuries, offering insights into the dynamics of planetary weather systems.</p>
+        <h3>Saturn: The Ringed Jewel</h3>
+        <p>Saturn, renowned for its stunning ring system, is a gas giant with a mesmerizing array of moons and icy particles encircling its equator. Its rings, composed of countless icy fragments, create a celestial spectacle that has captivated observers throughout history.</p>
+        <h3>Uranus and Neptune: The Ice Giants</h3>
+        <p>Uranus and Neptune, the outermost planets in our solar system, are icy worlds shrouded in mystery. Their atmospheres are dominated by hydrogen, helium, and methane, giving them a blue-green hue. Despite their remote locations, these distant giants hold valuable clues to the formation and evolution of our solar system.</p>
+        <h2>When can you see them?</h2>
+        <img src="telescope.jpg" alt="telescope" class="telescope">
+        <p>Mercury and Venus, the innermost planets, are often best observed during twilight hours, shortly after sunset or before sunrise. Look towards the western horizon after sunset to catch Mercury, or towards the eastern horizon before sunrise for Venus. Their brightness makes them relatively easy to spot, even in urban areas with light pollution.</p>
+        <p>Mars and Jupiter are visible to the naked eye for much of the year, appearing as bright points of light in the night sky. Mars, with its reddish hue, is most prominent during its opposition, when it is closest to Earth. Jupiter, the largest planet, shines brightly and is often accompanied by its moons visible through binoculars or a small telescope.</p>
+        <p>Saturn, with its distinctive ring system, is a stunning sight in the night sky. Look for Saturn in the late evening or early morning hours, rising in the southeast and setting in the southwest. A telescope will reveal the planet's rings and some of its largest moons, adding to the spectacle.</p>
+        <p>Uranus and Neptune, the outermost planets, require a telescope to observe due to their faintness. They can be found using star charts or astronomy apps, typically appearing as small, pale-blue disks. Look for them in the constellations they are currently situated in, and be prepared for a challenging but rewarding viewing experience.</p>
+        </div>
+    </main>
+    <footer><H2>Clear skies!</H2></footer>
+
+</body>
+</html>

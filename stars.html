@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stars.css">
+    <title>Stars</title>
+</head>
+<body>
+    <header><h1>The night sky</h1></header>
+    <nav>
+        <div class="home" id="home">Home</div>
+        <div class="moon" id="moon">Moon</div>
+        <div class="planets" id="planets">Planets</div>
+        <div class="stars" id="stars">Stars</div>
+        <div class="nebulae" id="nebulae">Nebulae</div>
+        <div class="galaxies" id="galaxies">Galaxies</div>
+        <script>
+            var home = document.getElementById("home")
+            var moon = document.getElementById("moon")
+            var stars = document.getElementById("stars")
+            var nebuale = document.getElementById("nebulae")
+            var galaxies = document.getElementById("galaxies")
+            var planets = document.getElementById("planets")
+            
+            home.addEventListener("click",function(){
+                window.open("index.html", "_self")
+            })
+            moon.addEventListener("click",function(){
+                window.open("moon.html", "_self")
+            })
+            stars.addEventListener("click",function(){
+                window.open("stars.html", "_self")
+            })
+            nebulae.addEventListener("click",function(){
+                window.open("nebulae.html", "_self")
+            })
+            galaxies.addEventListener("click",function(){
+                window.open("galaxies.html", "_self")
+            })
+            planets.addEventListener("click",function(){
+                window.open("planets.html","_self")
+            })
+            
+
+        </script>
+    </nav>
+    <main>
+        <div class="content">
+            <img src="stars.jpg" alt="">
+            <h2>The little lights in the sky</h2>
+            <h3>The Brightest Diamonds in the Sky</h3>
+            <p>Stars are luminous spheres of hot, glowing gas held together by their own gravity. They come in a dazzling array of sizes, colors, and luminosities, from the massive, fiery giants to the faint, twinkling dwarfs. The brightness of a star, known as its apparent magnitude, is determined by its distance from Earth and its intrinsic luminosity.</p>
+            <h3>The Life Cycle of Stars</h3>
+            <p>Stars are born within vast clouds of gas and dust known as nebulae. Over time, gravitational forces cause these clouds to collapse, giving rise to new stars. As stars mature, they undergo a process of nuclear fusion, converting hydrogen into helium and releasing immense amounts of energy in the form of light and heat. Eventually, stars exhaust their nuclear fuel and undergo dramatic transformations, culminating in events such as supernovae, black holes, or white dwarfs, depending on their mass.</p>
+            <h3>Stellar Spectra and Classification</h3>
+            <p>Stars exhibit a wide range of colors, which astronomers use to classify them into spectral types. The most common classification system, developed by astronomer Annie Jump Cannon, categorizes stars based on the presence of certain spectral lines in their spectra. These spectral types, ranging from hot, blue O-type stars to cool, red M-type stars, provide valuable insights into the temperature, composition, and evolutionary stage of each star.</p>
+            <img src="Pleiades_large.jpg" alt="">
+            <h3>Guiding Lights and Cosmic Navigation</h3>
+            <p>Throughout history, stars have served as navigational aids for sailors, travelers, and explorers, guiding them across vast oceans and uncharted territories. Constellations, patterns of stars that form recognizable shapes in the night sky, have been used by cultures around the world to navigate, mark the changing seasons, and tell stories about the cosmos.</p>
+            <h3>Stellar Evolution and Galactic Dynamics</h3>
+            <p>Studying the life cycles of stars offers valuable insights into the formation and evolution of galaxies. Stars play a crucial role in shaping the dynamics of galactic structures, influencing the distribution of matter, the formation of planetary systems, and the overall evolution of the cosmos. By understanding the processes that govern stellar birth, life, and death, astronomers can piece together the story of how galaxies, including our own Milky Way, came into existence.</p>
+            <h2>Neutron stars</h2>
+            <p>Neutron stars, the remnants of massive stellar explosions known as supernovae, are among the most extreme and mysterious objects in the universe. These dense stellar corpses pack the mass of multiple suns into a sphere roughly the size of a city, resulting in mind-boggling densities and gravitational forces. Composed almost entirely of neutrons, they possess extraordinary properties, including intense magnetic fields and rapid rotation rates. Neutron stars emit powerful beams of radiation from their poles, observable as pulsating signals, earning them the name "pulsars." Studying neutron stars offers valuable insights into the fundamental physics of matter under extreme conditions, as well as the mechanisms driving cosmic explosions and the evolution of galaxies. Despite their diminutive size, neutron stars are cosmic powerhouses, illuminating the universe with their enigmatic brilliance and unlocking the secrets of the cosmos.</p>
+
+        </div>
+    </main>
+    <footer><h2>Clear skies!</h2></footer>
+</body>
+</html>

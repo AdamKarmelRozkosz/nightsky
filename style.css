@@ -1,0 +1,96 @@
+body
+{
+    margin: 0px;
+    height: 100vh;
+}
+header
+{
+    color: white;
+    height: 5%;
+    background-color: rgb(69, 39, 71);
+    text-align: center;
+}
+h1
+{
+    margin: 0px;
+}
+h2
+{
+    text-align: center;
+    margin: 0px;
+}
+nav
+{
+    height: 2.5%;
+    color: white;
+    background-color: rgb(50, 37, 53);
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    /* gap: 3rem; */
+}
+main
+{
+    background-color: #231a36;
+    color: white;
+    /* height: 77.5%; */
+}
+footer
+{
+    height: 5%;
+    color: white;
+    text-align: center;
+    background-color: rgb(69, 39, 71);
+}
+/* Header */
+.moon, .stars, .nebulae, .galaxies, .home, .planets
+{
+    position: inherit;
+    top: 50%;
+    left: 50%;
+    transform: translate(-25%,-25%);
+    margin: 0px;
+    text-align: center;
+    font-size: 24px;
+    width: 10%;
+    height: 155%;
+}
+.moon:hover, .stars:hover, .nebulae:hover, .galaxies:hover ,.home:hover, .planets:hover
+{
+    background-color: rgb(160, 130, 135);
+
+}
+
+/* Main */
+video
+{
+    margin: 30px;
+    border-radius: 5%;
+    width: 37%;
+    height: 25%;
+    float: right;
+}
+p
+{
+    font-size: 20px;
+}
+.content
+{
+    padding: 25px;
+    margin: 0px
+}
+.bortle
+{
+    border-radius: 5%;
+    margin: 30px;
+    float: right;
+    height: 350px;
+    width: 37%;
+}
+a
+{
+    text-decoration: none;
+    color: rgb(160, 130, 135);
+}
